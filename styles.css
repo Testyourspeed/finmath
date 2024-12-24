@@ -125,4 +125,23 @@ body {
         font-size: 1rem;
     }
 }
+.return-home {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.return-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.return-button:hover {
+    background: #d88700;
+}
 
